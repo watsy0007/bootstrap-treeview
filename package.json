@@ -24,7 +24,7 @@
     "dist/bootstrap-treeview.min.css"
   ],
   "scripts": {
-    "install": "test -f bower.json && node_modules/bower/bin/bower install",
+    "install": "bower install --allow-root",
     "start": "node app",
     "test": "grunt test"
   },
